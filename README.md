@@ -4,7 +4,7 @@
 
 Här följer de funktioner du ska bygga i ditt program.
 
-- [ ] Det måste finnas en meny där man kan välja att visa olika data som efterfrågas av skolan. (Console)
+- [x] Det måste finnas en meny där man kan välja att visa olika data som efterfrågas av skolan. (Console)
 
 - [ ] Skolan vill kunna ta fram en översikt över all personal där det framgår namn och vilka befattningar de har samt hur många år de har arbetat på skolan. Administratören vill också ha möjlighet att spara ner ny personal. (SQL i SSMS)
 

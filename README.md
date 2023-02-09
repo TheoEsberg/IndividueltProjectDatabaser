@@ -12,7 +12,7 @@ Här följer de funktioner du ska bygga i ditt program.
 
 - [ ]  Hur många lärare jobbar på de olika avdelningarna? (EF i VS)
 
-- [ ] Visa information om alla elever (EF i VS)
+- [x] Visa information om alla elever (EF i VS)
 
 - [ ] Visa en lista på alla aktiva kurser (EF i VS)
 

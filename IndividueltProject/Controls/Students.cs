@@ -16,7 +16,7 @@ namespace IndividueltProject.Controls
 
             foreach (var student in students.OrderBy(c => c.ClassName))
             {
-                Console.WriteLine(student.FName + " " + student.LName + ", " + student.ClassName);
+                Console.WriteLine($"{student.ClassName} : {student.FName} {student.LName}");
             }
         }
     }

@@ -11,6 +11,8 @@ public partial class Course
 
     public int TeacherId { get; set; }
 
+    public bool IsActive { get; set; }
+
     public virtual ICollection<Connection> Connections { get; } = new List<Connection>();
 
     public virtual ICollection<Grade> Grades { get; } = new List<Grade>();

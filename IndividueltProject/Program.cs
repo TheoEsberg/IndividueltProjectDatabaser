@@ -1,3 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
 
+
+using IndividueltProject.Controls;
+
+Teachers.ShowAllTeahers();
+Console.WriteLine();
+GetCourses.GetActiveCourses();
+Console.WriteLine();
+Students.ShowAllStudents();
+Console.ReadKey();

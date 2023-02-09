@@ -13,17 +13,19 @@ namespace IndividueltProject.Controls
         public static void ShowAllTeahers()
         {
             var context = new IndividualProjectDbContext();
-            var teachers = (from c in context.Courses join e in context.Employees on c.TeacherId equals e.EmployeeId select new
-            {
-                EmployeeID = e.EmployeeId,
-                EmployeeName = e.FullName,
-                EmployeeTitle = e.WorkTitle,
-                CourseName = c.CourseName
-            }).ToList();
+            var employees = context.Employees;
 
-            foreach (var teacher in teachers.OrderBy(c => c.EmployeeTitle))
+            foreach (var employee in employees.GroupBy(x => x.WorkTitle))
             {
-                Console.WriteLine(teacher.CourseName + ", " + teacher.EmployeeName + ", " + teacher.EmployeeTitle);
+                Console.WriteLine($"Amount of {employee.Key} = {employee.Count()}");
+                foreach (var emp in employee)
+                {
+                    if (emp.WorkTitle == employee.Key)
+                    {
+                        Console.WriteLine($"\t{emp.FullName}");
+                    }
+                }
+                Console.WriteLine();
             }
         }
     }

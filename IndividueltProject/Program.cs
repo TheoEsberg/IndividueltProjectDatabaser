@@ -2,10 +2,7 @@
 
 
 using IndividueltProject.Controls;
+using IndividueltProject.Views;
 
-Teachers.ShowAllTeahers();
-Console.WriteLine();
-GetCourses.GetActiveCourses();
-Console.WriteLine();
-Students.ShowAllStudents();
+Menus.StartMenu();
 Console.ReadKey();

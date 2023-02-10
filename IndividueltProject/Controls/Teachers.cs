@@ -1,4 +1,5 @@
 ﻿using IndividueltProject.Models;
+using IndividueltProject.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,10 @@ namespace IndividueltProject.Controls
                 }
                 Console.WriteLine();
             }
+
+            Console.WriteLine("\nPress any key to return:");
+            Console.ReadKey();
+            Menus.StartMenu();
         }
     }
 }

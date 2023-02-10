@@ -1,4 +1,5 @@
 ﻿using IndividueltProject.Models;
+using IndividueltProject.Views;
 using Microsoft.EntityFrameworkCore.Query.Internal;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,10 @@ namespace IndividueltProject.Controls
                 isActive = (course.IsActive) ? " is active" : " is not active";
                 Console.WriteLine(course.CourseName + "" + isActive);
             }
+
+            Console.WriteLine("\nPress any key to return:");
+            Console.ReadKey();
+            Menus.StartMenu();
         }
     }
 }

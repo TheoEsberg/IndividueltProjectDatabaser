@@ -10,11 +10,11 @@ Här följer de funktioner du ska bygga i ditt program.
 
 - [ ] Vi vill spara ner elever och se vilken klass de går i. Vi vill kunna spara ner betyg för en elev i varje kurs de läst och vi vill kunna se vilken lärare som satt betyget. Betyg ska också ha ett datum då de satts. (SQL i SSMS)
 
-- [ ]  Hur många lärare jobbar på de olika avdelningarna? (EF i VS)
+- [x]  Hur många lärare jobbar på de olika avdelningarna? (EF i VS)
 
 - [x] Visa information om alla elever (EF i VS)
 
-- [ ] Visa en lista på alla aktiva kurser (EF i VS)
+- [x] Visa en lista på alla aktiva kurser (EF i VS)
 
 - [ ] Hur mycket betalar respektive avdelning ut i lön varje månad? (SQL i SSMS)
 

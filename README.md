@@ -22,4 +22,4 @@ Här följer de funktioner du ska bygga i ditt program.
 
 - [x] Skapa en Stored Procedure som tar emot ett Id och returnerar viktig information om den elev som är registrerad med aktuellt Id. (SQL i SSMS)
 
-- [ ] Sätt betyg på en elev genom att använda Transactions ifall något går fel. (SQL i SSMS)
+- [x] Sätt betyg på en elev genom att använda Transactions ifall något går fel. (SQL i SSMS)

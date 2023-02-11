@@ -16,7 +16,7 @@ Här följer de funktioner du ska bygga i ditt program.
 
 - [x] Visa en lista på alla aktiva kurser (EF i VS)
 
-- [ ] Hur mycket betalar respektive avdelning ut i lön varje månad? (SQL i SSMS)
+- [x] Hur mycket betalar respektive avdelning ut i lön varje månad? (SQL i SSMS)
 
 - [ ] Hur mycket är medellönen för de olika avdelningarna? (SQL i SSMS)
 
